@@ -1,24 +1,39 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import Home from "../views/Home.vue";
+import West from "../views/West.vue";
+import East from "../views/East.vue";
+import List from "../views/List.vue";
+import North from "../views/North.vue";
+import South from "../views/South.vue";
 
 Vue.use(VueRouter);
 
 const routes = [
   {
-    path: "/",
-    name: "Home",
-    component: Home,
+    path: "/West",
+    name: "West",
+    component: West
   },
   {
-    path: "/about",
-    name: "About",
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () =>
-      import(/* webpackChunkName: "about" */ "../views/About.vue"),
+    path: "/East",
+    name: "East",
+    component: East
   },
+  {
+    path: "/North",
+    name: "North",
+    component: North
+  },
+  {
+    path: "/South",
+    name: "South",
+    component: South
+  },
+    {
+    path: "/List",
+    name: "List",
+    component: List
+  }
 ];
 
 const router = new VueRouter({
