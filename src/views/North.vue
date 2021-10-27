@@ -1,15 +1,5 @@
 <template>
-    <div>
+  <div class="North">
     <h1>North</h1>
-    </div>
+  </div>
 </template>
-
-<script>
-export default {
-
-}
-</script>
-
-<style>
-
-</style>

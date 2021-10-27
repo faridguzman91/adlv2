@@ -1,11 +1,5 @@
 <template>
-    <div>
-        <h1>West</h1>
-    </div>
+  <div class="West">
+    <h1>West</h1>
+  </div>
 </template>
-
-<script>
-export default {};
-</script>
-
-<style></style>

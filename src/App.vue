@@ -2,6 +2,7 @@
   <div id="app">
     <div id="nav">
       <!--<router-link to="/"></router-link>-->
+
       <router-link to="/West" class="nav-buttons">West</router-link>
       <router-link to="/East" class="nav-buttons">East</router-link>
       <router-link to="/North" class="nav-buttons">North</router-link>
@@ -9,11 +10,25 @@
       <router-link to="/List" class="nav-buttons">
         <i class="fas fa-list"></i>
       </router-link>
-
       <button class="button_filter"><i class="fas fa-filter"></i>Filter</button>
     </div>
+    <Slider />
+    <Dropdown />
   </div>
 </template>
+
+<script>
+import Slider from "./components/Slider.vue";
+// eslint-disable-next-line no-unused-vars
+import Dropdown from "./components/Dropdown.vue";
+import "vue-slider-component/theme/default.css";
+
+export default {
+  components: {
+    Slider,
+  },
+};
+</script>
 
 <style lang="scss">
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
@@ -28,12 +43,17 @@
 
 h1 {
   font-family: "Montserrat", sans-serif;
+  color: black;
 }
 
 #nav {
   display: flex;
   padding: 30px;
   background-color: #1c1c1c;
+
+  &.router-link-active {
+    background-color: #387d76;
+  }
 
   a {
     font-weight: bold;

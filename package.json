@@ -9,8 +9,11 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "nouislider": "^15.5.0",
     "vue": "^2.6.11",
     "vue-router": "^3.2.0",
+    "vue-select": "^3.16.0",
+    "vue-slider-component": "^3.2.15",
     "vuex": "^3.4.0"
   },
   "devDependencies": {

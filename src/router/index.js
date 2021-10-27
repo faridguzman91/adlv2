@@ -12,27 +12,27 @@ const routes = [
   {
     path: "/West",
     name: "West",
-    component: West
+    component: West,
   },
   {
     path: "/East",
     name: "East",
-    component: East
+    component: East,
   },
   {
     path: "/North",
     name: "North",
-    component: North
+    component: North,
   },
   {
     path: "/South",
     name: "South",
-    component: South
+    component: South,
   },
     {
     path: "/List",
     name: "List",
-    component: List
+    component: List,
   }
 ];
 
