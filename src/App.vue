@@ -19,13 +19,14 @@
 
 <script>
 import Slider from "./components/Slider.vue";
-// eslint-disable-next-line no-unused-vars
+
 import Dropdown from "./components/Dropdown.vue";
 import "vue-slider-component/theme/default.css";
 
 export default {
   components: {
     Slider,
+    Dropdown,
   },
 };
 </script>
