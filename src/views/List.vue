@@ -2,7 +2,9 @@
   <div class="List">
     <table id="housesselector-list">
       <thead>
-        <tr></tr>
+        <tr>
+          DA
+        </tr>
       </thead>
     </table>
   </div>

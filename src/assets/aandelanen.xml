@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<data xmlns:xi="http://www.w3.org/2001/XInclude">
+	<page>
+		<id>house_selector</id>
+		<label>Kies uw appartement</label>
+		<showfloorplans>false</showfloorplans>
+		<showhouseinfo>false</showhouseinfo>
+	</page>
+	<page>
+		<id>download</id>
+		<label>Download PDF</label>
+		<disabled>true</disabled>
+		<showfloorplans>false</showfloorplans>
+	</page>
+	<page>
+		<id>disclaimer</id>
+		<label>Disclaimer</label>
+		<show>false</show>
+		<showfloorplans>false</showfloorplans>
+	</page>
+
+
+
+
+<!-- HOUSETYPE -->
+	<housetype>
+		<id>A</id>
+	</housetype>
+
+	<housetype>
+		<id>B</id>
+	</housetype>
+
+
+<!-- HOUSES -->
+
+	<house>
+		<id>139</id>
+		<title>139</title>
+		<description></description>
+		<housetype>B</housetype>
+		<status>vrij</status>
+		<level>1</level>
+		<livingsurface>89.0</livingsurface>
+		<roomcount>3</roomcount>
+		<orientatie>zuid-oost</orientatie>
+		<terrace>8.4</terrace>
+		<image></image>
+		<pdf>type_B.pdf</pdf>
+		<pdf2></pdf2>
+		<price>444900</price>
+		<priceminmax>ca. €425.000,- tot €500.000,-</priceminmax>
+	</house>
+	<house>
+		<id>140</id>
+		<title>140</title>
+		<description></description>
+		<housetype>Bs</housetype>
+		<status>vrij</status>
+		<level>1</level>
+		<livingsurface>89.0</livingsurface>
+		<roomcount>3</roomcount>
+		<orientatie>zuid-oost</orientatie>
+		<terrace>8.5</terrace>
+		<image></image>
+		<pdf>type_B.pdf</pdf>
+		<pdf2></pdf2>
+		<price>432900</price>
+		<priceminmax>ca. €425.000,- tot €500.000,-</priceminmax>
+	</house>
+	<house>
+		<id>141</id>
+		<title>141</title>
+		<description></description>
+		<housetype>D</housetype>
+		<status>vrij</status>
+		<level>1</level>
+		<livingsurface>96.3</livingsurface>
+		<roomcount>3</roomcount>
+		<orientatie>zuid-oost</orientatie>
+		<terrace>8.5</terrace>
+		<image></image>
+		<pdf>type_D.pdf</pdf>
+		<pdf2></pdf2>
+		<price>474900</price>
+		<priceminmax>ca. €425.000,- tot €500.000,-</priceminmax>
+	</house>
+	<house>
+		<id>142</id>
+		<title>142</title>
+		<description></description>
+		<housetype>E</housetype>
+		<status>vrij</status>
+		<level>1</level>
+		<livingsurface>63.6</livingsurface>
+		<roomcount>2</roomcount>
+		<orientatie>zuid-oost</orientatie>
+		<terrace>8.5</terrace>
+		<image></image>
+		<pdf>type_E.pdf</pdf>
+		<pdf2></pdf2>
+		<price>334900</price>
+		<priceminmax>ca. €325.000,- tot €350.000,-</priceminmax>
+	</house>
+	<house>
+		<id>143</id>
+		<title>143</title>
+		<description></description>
+		<housetype>A</housetype>
+		<status>vrij</status>
+		<level>1</level>
+		<livingsurface>87.7</livingsurface>
+		<roomcount>3</roomcount>
+		<orientatie>zuid-oost</orientatie>
+		<terrace>8.8</terrace>
+		<image></image>
+		<pdf>type_A.pdf</pdf>
+		<pdf2></pdf2>
+		<price>454900</price>
+		<priceminmax>ca. €425.000,- tot €500.000,-</priceminmax>
+	</house>
+	<house>
+		<id>144</id>
+		<title>144</title>
+		<description></description>
+		<housetype>B1</housetype>
+		<status>vrij</status>
+		<level>2</level>
+		<livingsurface>89.0</livingsurface>
+		<roomcount>3</roomcount>
+		<orientatie>zuid-oost</orientatie>
+		<terrace>7.7</terrace>
+		<image></image>
+		<pdf>type_B.pdf</pdf>
+		<pdf2></pdf2>
+		<price>449900</price>
+		<priceminmax>ca. €425.000,- tot €500.000,-</priceminmax>
+	</house>
+	<house>
+		<id>145</id>
+		<title>145</title>
+		<description></description>
+		<housetype>B1s</housetype>
+		<status>vrij</status>
+		<level>2</level>
+		<livingsurface>89.0</livingsurface>
+		<roomcount>3</roomcount>
+		<orientatie>zuid-oost</orientatie>
+		<terrace>7.7</terrace>
+		<image></image>
+		<pdf>type_B.pdf</pdf>
+		<pdf2></pdf2>
+		<price>437900</price>
+		<priceminmax>ca. €425.000,- tot €500.000,-</priceminmax>
+	</house>
+	<house>
+		<id>146</id>
+		<title>146</title>
+		<description></description>
+		<housetype>D1</housetype>
+		<status>vrij</status>
+		<level>2</level>
+		<livingsurface>96.3</livingsurface>
+		<roomcount>3</roomcount>
+		<orientatie>zuid-oost</orientatie>
+		<terrace>7.7</terrace>
+		<image></image>
+		<pdf>type_D.pdf</pdf>
+		<pdf2></pdf2>
+		<price>479900</price>
+		<priceminmax>ca. €425.000,- tot €500.000,-</priceminmax>
+	</house>
+	<house>
+		<id>147</id>
+		<title>147</title>
+		<description></description>
+		<housetype>E1</housetype>
+		<status>vrij</status>
+		<level>2</level>
+		<livingsurface>63.6</livingsurface>
+		<roomcount>2</roomcount>
+		<orientatie>zuid-oost</orientatie>
+		<terrace>7.7</terrace>
+		<image></image>
+		<pdf>type_E.pdf</pdf>
+		<pdf2></pdf2>
+		<price>339900</price>
+		<priceminmax>ca. €325.000,- tot €350.000,-</priceminmax>
+	</house>
+	<house>
+		<id>148</id>
+		<title>148</title>
+		<description></description>
+		<housetype>A1</housetype>
+		<status>vrij</status>
+		<level>2</level>
+		<livingsurface>87.7</livingsurface>
+		<roomcount>3</roomcount>
+		<orientatie>zuid-oost</orientatie>
+		<terrace>7.7</terrace>
+		<image></image>
+		<pdf>type_A.pdf</pdf>
+		<pdf2></pdf2>
+		<price>459900</price>
+		<priceminmax>ca. €425.000,- tot €500.000,-</priceminmax>
+	</house>
+	<house>
+		<id>149</id>
+		<title>149</title>
+		<description>Royaal dakterras</description>
+		<housetype>G</housetype>
+		<status>vrij</status>
+		<level>3</level>
+		<livingsurface>87.3</livingsurface>
+		<roomcount>3</roomcount>
+		<orientatie>zuid-oost</orientatie>
+		<terrace>41.1</terrace>
+		<image></image>
+		<pdf>type_G.pdf</pdf>
+		<pdf2></pdf2>
+		<price>499900</price>
+		<priceminmax>ca. €425.000,- tot €500.000,-</priceminmax>
+	</house>
+	<house>
+		<id>150</id>
+		<title>150</title>
+		<description>Royaal dakterras</description>
+		<housetype>H</housetype>
+		<status>vrij</status>
+		<level>3</level>
+		<livingsurface>93.1</livingsurface>
+		<roomcount>3</roomcount>
+		<orientatie>zuid-oost</orientatie>
+		<terrace>82.2</terrace>
+		<image></image>
+		<pdf>type_H.pdf</pdf>
+		<pdf2></pdf2>
+		<price>524900</price>
+		<priceminmax>ca. €425.000,- tot €500.000,-</priceminmax>
+	</house>
+	<house>
+		<id>151</id>
+		<title>151</title>
+		<description>Royaal dakterras</description>
+		<housetype>F</housetype>
+		<status>vrij</status>
+		<level>3</level>
+		<livingsurface>85.8</livingsurface>
+		<roomcount>3</roomcount>
+		<orientatie>zuid-oost</orientatie>
+		<terrace>41.1</terrace>
+		<image></image>
+		<pdf>type_F.pdf</pdf>
+		<pdf2></pdf2>
+		<price>499900</price>
+		<priceminmax>ca. €425.000,- tot €500.000,-</priceminmax>
+	</house>
+
+
+	<house>
+		<id>horecaretail</id>
+		<title>Commerciële ruimte</title>
+		<roomcount>3</roomcount>
+	</house>
+	
+</data>

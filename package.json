@@ -11,6 +11,8 @@
     "@vueform/multiselect": "^2.2.0",
     "@vueform/slider": "^2.0.5",
     "@vueform/toggle": "^2.0.1",
+    "axios": "^0.24.0",
+    "bulma": "^0.9.3",
     "core-js": "^3.6.5",
     "nouislider": "^15.5.0",
     "vue": "^2.6.11",

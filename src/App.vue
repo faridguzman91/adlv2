@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 <template>
   <div id="app">
     <p class="title">Project Aan de lanen Vue.js</p>
@@ -5,7 +6,7 @@
       <!--<router-link to="/"></router-link>-->
 
       <router-link to="/West" class="nav-buttons">West</router-link>
-      <router-link to="./East" class="nav-buttons">East</router-link>
+      <router-link to="/East" class="nav-buttons">East</router-link>
       <router-link to="/North" class="nav-buttons">North</router-link>
       <router-link to="/South" class="nav-buttons">South</router-link>
       <router-link to="/List" class="nav-buttons">
@@ -13,17 +14,20 @@
       </router-link>
       <button class="button_filter"><i class="fas fa-filter"></i>Filter</button>
     </div>
-    <Slider class="Slider" />
-    <!--<Slider class="Slider2" />-->
 
-    <DropdownVerdieping class="Dropdown" />
-    <DropdownWoontype class="Dropdown" />
-
-    <VueSlider />
+    <div class="flter">
+      <Slider class="Slider" />
+      <!--<Slider class="Slider2" />-->
+      <DropdownVerdieping class="Dropdown" />
+      <DropdownWoontype class="Dropdown" />
+      <VueSlider />
+    </div>
+    <router-view />
   </div>
 </template>
 
 <script>
+// import Router from "./router/index.js";
 import Slider from "./components/Slider.vue";
 import VueSlider from "./components/vueform-slider/VueformSlider.vue";
 import DropdownVerdieping from "./components/DropdownVerdieping.vue";
@@ -32,6 +36,7 @@ import "vue-slider-component/theme/default.css";
 
 export default {
   components: {
+    // Router,
     Slider,
     DropdownVerdieping,
     DropdownWoontype,

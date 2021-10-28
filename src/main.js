@@ -13,6 +13,8 @@ Vue.component("v-select", vSelect);
 
 Vue.config.productionTip = false;
 
+//make app router-aware
+
 new Vue({
   router,
   store,
