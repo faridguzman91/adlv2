@@ -12,14 +12,17 @@
       </router-link>
       <button class="button_filter"><i class="fas fa-filter"></i>Filter</button>
     </div>
-    <Slider />
-    <Dropdown />
+    <Slider class="Slider" />
+    <Slider class="Slider2" />
+
+    <Dropdown class="Dropdown" />
+    <VueSlider />
   </div>
 </template>
 
 <script>
 import Slider from "./components/Slider.vue";
-
+import VueSlider from "./components/vueform-slider/VueformSlider.vue";
 import Dropdown from "./components/Dropdown.vue";
 import "vue-slider-component/theme/default.css";
 
@@ -27,12 +30,28 @@ export default {
   components: {
     Slider,
     Dropdown,
+    VueSlider,
   },
 };
 </script>
 
 <style lang="scss">
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+
+.Dropdown {
+  width: 50%;
+  margin: 10px 20px;
+}
+
+.Slider {
+  width: 50%;
+  margin: 10px 20px;
+}
+
+.Slider2 {
+  width: 50%;
+  margin: 10px 20px;
+}
 
 #app {
   font-family: "Montserrat", sans-serif;

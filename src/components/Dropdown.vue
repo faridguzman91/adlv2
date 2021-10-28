@@ -1,8 +1,15 @@
+/* eslint-disable prettier/prettier */
 <template>
-  <v-select :options="verdiepingen" label="verdieping"></v-select>
+  <v-select
+    :options="verdiepingen"
+    class="verdiepingen"
+    label="verdieping"
+  ></v-select>
 </template>
 
 <script>
+import "vue-select/dist/vue-select.css";
+
 export default {
   name: "Dropdown",
   data() {
@@ -20,9 +27,6 @@ export default {
 };
 </script>
 
-<style scoped>
-.loader {
-  text-align: center;
-  color: #bbbbbb;
-}
+<style lang="scss">
+@import "vue-select/src/scss/vue-select.scss";
 </style>
