@@ -6,6 +6,8 @@ import vSelect from "vue-select";
 // import Slider from '@vueform/slider/dist/slider.vue2.js';
 import VueCompositionAPI from '@vue/composition-api'
 
+
+
 Vue.use(VueCompositionAPI);
 
 Vue.component("v-select", vSelect);

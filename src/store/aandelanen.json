@@ -1,0 +1,287 @@
+{
+   "data": {
+      "page": [
+         {
+            "id": "house_selector",
+            "label": "Kies uw appartement",
+            "showfloorplans": "false",
+            "showhouseinfo": "false"
+         },
+         {
+            "id": "download",
+            "label": "Download PDF",
+            "disabled": "true",
+            "showfloorplans": "false"
+         },
+         {
+            "id": "disclaimer",
+            "label": "Disclaimer",
+            "show": "false",
+            "showfloorplans": "false"
+         }
+      ],
+      "housetype": [
+         {
+            "id": "A"
+         },
+         {
+            "id": "B"
+         }
+      ],
+      "house": [
+         {
+            "id": "139",
+            "title": "139",
+            "description": "",
+            "housetype": [
+               "B"
+            ],
+            "status": "vrij",
+            "level": "1",
+            "livingsurface": "89.0",
+            "roomcount": "3",
+            "orientatie": "zuid-oost",
+            "terrace": "8.4",
+            "image": "",
+            "pdf": "type_B.pdf",
+            "pdf2": "",
+            "price": "444900",
+            "priceminmax": "ca. €425.000,- tot €500.000,-"
+         },
+         {
+            "id": "140",
+            "title": "140",
+            "description": "",
+            "housetype": [
+               "Bs"
+            ],
+            "status": "vrij",
+            "level": "1",
+            "livingsurface": "89.0",
+            "roomcount": "3",
+            "orientatie": "zuid-oost",
+            "terrace": "8.5",
+            "image": "",
+            "pdf": "type_B.pdf",
+            "pdf2": "",
+            "price": "432900",
+            "priceminmax": "ca. €425.000,- tot €500.000,-"
+         },
+         {
+            "id": "141",
+            "title": "141",
+            "description": "",
+            "housetype": [
+               "D"
+            ],
+            "status": "vrij",
+            "level": "1",
+            "livingsurface": "96.3",
+            "roomcount": "3",
+            "orientatie": "zuid-oost",
+            "terrace": "8.5",
+            "image": "",
+            "pdf": "type_D.pdf",
+            "pdf2": "",
+            "price": "474900",
+            "priceminmax": "ca. €425.000,- tot €500.000,-"
+         },
+         {
+            "id": "142",
+            "title": "142",
+            "description": "",
+            "housetype": [
+               "E"
+            ],
+            "status": "vrij",
+            "level": "1",
+            "livingsurface": "63.6",
+            "roomcount": "2",
+            "orientatie": "zuid-oost",
+            "terrace": "8.5",
+            "image": "",
+            "pdf": "type_E.pdf",
+            "pdf2": "",
+            "price": "334900",
+            "priceminmax": "ca. €325.000,- tot €350.000,-"
+         },
+         {
+            "id": "143",
+            "title": "143",
+            "description": "",
+            "housetype": [
+               "A"
+            ],
+            "status": "vrij",
+            "level": "1",
+            "livingsurface": "87.7",
+            "roomcount": "3",
+            "orientatie": "zuid-oost",
+            "terrace": "8.8",
+            "image": "",
+            "pdf": "type_A.pdf",
+            "pdf2": "",
+            "price": "454900",
+            "priceminmax": "ca. €425.000,- tot €500.000,-"
+         },
+         {
+            "id": "144",
+            "title": "144",
+            "description": "",
+            "housetype": [
+               "B1"
+            ],
+            "status": "vrij",
+            "level": "2",
+            "livingsurface": "89.0",
+            "roomcount": "3",
+            "orientatie": "zuid-oost",
+            "terrace": "7.7",
+            "image": "",
+            "pdf": "type_B.pdf",
+            "pdf2": "",
+            "price": "449900",
+            "priceminmax": "ca. €425.000,- tot €500.000,-"
+         },
+         {
+            "id": "145",
+            "title": "145",
+            "description": "",
+            "housetype": [
+               "B1s"
+            ],
+            "status": "vrij",
+            "level": "2",
+            "livingsurface": "89.0",
+            "roomcount": "3",
+            "orientatie": "zuid-oost",
+            "terrace": "7.7",
+            "image": "",
+            "pdf": "type_B.pdf",
+            "pdf2": "",
+            "price": "437900",
+            "priceminmax": "ca. €425.000,- tot €500.000,-"
+         },
+         {
+            "id": "146",
+            "title": "146",
+            "description": "",
+            "housetype": [
+               "D1"
+            ],
+            "status": "vrij",
+            "level": "2",
+            "livingsurface": "96.3",
+            "roomcount": "3",
+            "orientatie": "zuid-oost",
+            "terrace": "7.7",
+            "image": "",
+            "pdf": "type_D.pdf",
+            "pdf2": "",
+            "price": "479900",
+            "priceminmax": "ca. €425.000,- tot €500.000,-"
+         },
+         {
+            "id": "147",
+            "title": "147",
+            "description": "",
+            "housetype": [
+               "E1"
+            ],
+            "status": "vrij",
+            "level": "2",
+            "livingsurface": "63.6",
+            "roomcount": "2",
+            "orientatie": "zuid-oost",
+            "terrace": "7.7",
+            "image": "",
+            "pdf": "type_E.pdf",
+            "pdf2": "",
+            "price": "339900",
+            "priceminmax": "ca. €325.000,- tot €350.000,-"
+         },
+         {
+            "id": "148",
+            "title": "148",
+            "description": "",
+            "housetype": [
+               "A1"
+            ],
+            "status": "vrij",
+            "level": "2",
+            "livingsurface": "87.7",
+            "roomcount": "3",
+            "orientatie": "zuid-oost",
+            "terrace": "7.7",
+            "image": "",
+            "pdf": "type_A.pdf",
+            "pdf2": "",
+            "price": "459900",
+            "priceminmax": "ca. €425.000,- tot €500.000,-"
+         },
+         {
+            "id": "149",
+            "title": "149",
+            "description": "Royaal dakterras",
+            "housetype": [
+               "G"
+            ],
+            "status": "vrij",
+            "level": "3",
+            "livingsurface": "87.3",
+            "roomcount": "3",
+            "orientatie": "zuid-oost",
+            "terrace": "41.1",
+            "image": "",
+            "pdf": "type_G.pdf",
+            "pdf2": "",
+            "price": "499900",
+            "priceminmax": "ca. €425.000,- tot €500.000,-"
+         },
+         {
+            "id": "150",
+            "title": "150",
+            "description": "Royaal dakterras",
+            "housetype": [
+               "H"
+            ],
+            "status": "vrij",
+            "level": "3",
+            "livingsurface": "93.1",
+            "roomcount": "3",
+            "orientatie": "zuid-oost",
+            "terrace": "82.2",
+            "image": "",
+            "pdf": "type_H.pdf",
+            "pdf2": "",
+            "price": "524900",
+            "priceminmax": "ca. €425.000,- tot €500.000,-"
+         },
+         {
+            "id": "151",
+            "title": "151",
+            "description": "Royaal dakterras",
+            "housetype": [
+               "F"
+            ],
+            "status": "vrij",
+            "level": "3",
+            "livingsurface": "85.8",
+            "roomcount": "3",
+            "orientatie": "zuid-oost",
+            "terrace": "41.1",
+            "image": "",
+            "pdf": "type_F.pdf",
+            "pdf2": "",
+            "price": "499900",
+            "priceminmax": "ca. €425.000,- tot €500.000,-"
+         },
+         {
+            "id": "horecaretail",
+            "title": "Commerciële ruimte",
+            "roomcount": "3"
+         }
+      ],
+      "_xmlns:xi": "http://www.w3.org/2001/XInclude"
+   }
+}

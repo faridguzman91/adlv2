@@ -76,9 +76,11 @@ export default {
   color: #2c3e50;
 }
 
-h1 {
-  font-family: "Montserrat", sans-serif;
+h1,
+p {
+  font-family: "Montserrat", sans-serif !important;
   color: black;
+  font-weight: 100;
 }
 
 #nav {
