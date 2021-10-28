@@ -1,10 +1,11 @@
 <template>
   <div id="app">
+    <p class="title">Project Aan de lanen Vue.js</p>
     <div id="nav">
       <!--<router-link to="/"></router-link>-->
 
       <router-link to="/West" class="nav-buttons">West</router-link>
-      <router-link to="/East" class="nav-buttons">East</router-link>
+      <router-link to="./East" class="nav-buttons">East</router-link>
       <router-link to="/North" class="nav-buttons">North</router-link>
       <router-link to="/South" class="nav-buttons">South</router-link>
       <router-link to="/List" class="nav-buttons">
@@ -13,9 +14,11 @@
       <button class="button_filter"><i class="fas fa-filter"></i>Filter</button>
     </div>
     <Slider class="Slider" />
-    <Slider class="Slider2" />
+    <!--<Slider class="Slider2" />-->
 
-    <Dropdown class="Dropdown" />
+    <DropdownVerdieping class="Dropdown" />
+    <DropdownWoontype class="Dropdown" />
+
     <VueSlider />
   </div>
 </template>
@@ -23,13 +26,15 @@
 <script>
 import Slider from "./components/Slider.vue";
 import VueSlider from "./components/vueform-slider/VueformSlider.vue";
-import Dropdown from "./components/Dropdown.vue";
+import DropdownVerdieping from "./components/DropdownVerdieping.vue";
+import DropdownWoontype from "./components/DropdownWoontype.vue";
 import "vue-slider-component/theme/default.css";
 
 export default {
   components: {
     Slider,
-    Dropdown,
+    DropdownVerdieping,
+    DropdownWoontype,
     VueSlider,
   },
 };
@@ -37,6 +42,11 @@ export default {
 
 <style lang="scss">
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+
+.title {
+  display: flex;
+  padding: 10px;
+}
 
 .Dropdown {
   width: 50%;
@@ -69,7 +79,7 @@ h1 {
 #nav {
   display: flex;
   padding: 30px;
-  background-color: #1c1c1c;
+  background-color: #f5f5f5;
 
   &.router-link-active {
     background-color: #387d76;
@@ -81,6 +91,7 @@ h1 {
     padding: 0 10px;
     border: 1px solid white;
     text-decoration: none;
+    background-color: black;
 
     &.nav-buttons {
       padding: 20px;
@@ -107,7 +118,7 @@ h1 {
     display: flex;
     position: absolute;
     right: 20px;
-    background-color: #00000000;
+    background-color: #000000;
     padding: 22px;
 
     &:hover {

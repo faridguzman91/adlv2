@@ -4,6 +4,7 @@
     :options="verdiepingen"
     class="verdiepingen"
     label="verdieping"
+    placeholder="Verdieping"
   ></v-select>
 </template>
 
@@ -11,7 +12,7 @@
 import "vue-select/dist/vue-select.css";
 
 export default {
-  name: "Dropdown",
+  name: "DropdownVerdieping",
   data() {
     return {
       verdiepingen: [
@@ -29,4 +30,19 @@ export default {
 
 <style lang="scss">
 @import "vue-select/src/scss/vue-select.scss";
+
+.v-select {
+  position: relative;
+  font-family: inherit;
+  font-size: 13px;
+}
+
+.vs__dropdown-toggle {
+  display: flex;
+  padding: 0 0 4px 0;
+  background: none;
+  border: 1px solid rgba(60, 60, 60, 0.26);
+  border-radius: 0px !important;
+  white-space: normal;
+}
 </style>

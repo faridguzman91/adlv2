@@ -115,46 +115,48 @@ export default {
   width: 100%;
   height: 100%;
   border-radius: 50px;
-  background-color: red;
+  background-color: rgb(255, 254, 254);
   box-sizing: border-box;
-  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.35);
+  box-shadow: 0px 2px 2px rgb(14, 109, 57);
 
-  &-handle {
-    border-color: rgb(11, 230, 117);
-    border: 2px solid rgb(28, 165, 101);
-
-    &-focus {
-      box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.35);
-
-      &-disabled {
-        cursor: not-allowed;
-        background-color: rgb(186, 35, 35);
-        border-color: red;
-      }
+  
+    &-handle {
+      border-color: rgb(11, 230, 117);
+      border: 2px solid rgb(28, 165, 101);
     }
 
-    &-tooltip {
-      &-inner {
-        font-size: 16px;
-        white-space: nowrap;
-        padding: 2px;
-        min-width: 500px;
-        text-align: center;
-        color: black;
-        border-radius: 50px;
-        border-color: red;
-        background-color: black;
-        box-sizing: content-box;
-      }
-    }
 
-    &-tooltip-wrapper {
-      opacity: 0;
-      transition: all 0.3s;
-      @at-root &-show {
-        opacity: 1;
+  &-tooltip-inner {
+    font-size: 16px;
+    white-space: nowrap;
+    padding: 2px;
+    min-width: 55px;
+    text-align: center;
+    color: #fff;
+    border-radius: 50px;
+    border-color: #50c878;
+    background-color: #50c878;
+    box-sizing: content-box;
+
+
+      &-focus {
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.35);
+
+        &-disabled {
+          cursor: not-allowed;
+          background-color: rgb(186, 35, 35);
+          border-color: red;
+
+          &-tooltip-wrapper {
+            opacity: 0;
+            transition: all 0.3s;
+            @at-root &-show {
+              opacity: 1;
+            }
+          }
+        }
       }
     }
   }
-}
+
 </style>
