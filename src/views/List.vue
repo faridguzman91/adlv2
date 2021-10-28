@@ -79,18 +79,30 @@
         </th>
       </thead>
 
-      <paginatie :items="bouwNummerSorteren" />
+      <paginatie :items="bnrSorteren" />
+
+      <tbody v-for="(bnr, index) in bnrSorteren" v-bind:key="index">
+        <tr>
+          <!--oproep json-->
+          <td>{{ bnr.id }}</td>
+          <td>{{ bnr.status }}</td>
+          <td>{{ bnr.level }}</td>
+          <td>{{ bnr.livingsurface }}</td>
+          <td>{{ bnr.roomcount }}</td>
+          <td>{{ bnr.price }}</td>
+        </tr>
+      </tbody>
     </table>
   </div>
 </template>
 
 <script>
-import HouseData from "./store/aandelanen.json";
-import TablePageBody from "./store/ListBody.vue";
+import HouseData from "../store/aandelanen.json";
+import TablePageBody from "../store/ListBody.vue";
 
 export default {
   components: {
-    paginatie: ListBody,
+    paginatie: TablePageBody,
   },
   data() {
     return {
@@ -98,6 +110,26 @@ export default {
       sortBy: "",
       sortDirection: "ascending",
     };
+  },
+  computed: {
+    bnrSorteren() {
+      if (this.sortBy === "") {
+        return this.bnr;
+      }
+      let sortModifier = this.sortDirection === "ascending" ? 1 : -1;
+      return this.bnrs.slice().sort((a, b) => {
+        let colA = a[this.sortBy].toUpperCase();
+        let colB = b[this.sortBy].toUpperCase();
+
+        if (colA < colB) {
+          return -1 * sortModifier;
+        }
+        if (colA > colB) {
+          return 1 * sortModifier;
+        }
+        return 0;
+      });
+    },
   },
 };
 </script>
