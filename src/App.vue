@@ -19,6 +19,7 @@
       <Slider class="Slider" />
       <!--<Slider class="Slider2" />-->
       <DropdownVerdieping class="Dropdown" />
+      
       <DropdownWoontype class="Dropdown" />
       <VueSlider />
     </div>

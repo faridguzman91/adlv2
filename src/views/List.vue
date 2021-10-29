@@ -84,7 +84,6 @@
 
       <tbody v-for="(bnr, index) in bnrSorteren" v-bind:key="index">
         <tr>
-          <!--oproep json-->
           <td>{{ bnr.id }}</td>
           <td>{{ bnr.status }}</td>
           <td>{{ bnr.level }}</td>
@@ -98,12 +97,14 @@
 </template>
 
 <script>
+//import json
 import HouseData from "../store/aandelanen.json";
-import TablePageBody from "../store/ListBody.vue";
+//import pagination
+import ListBody from "../store/ListBody.vue";
 
 export default {
   components: {
-    paginatie: TablePageBody,
+    paginatie: ListBody,
   },
   data() {
     return {
